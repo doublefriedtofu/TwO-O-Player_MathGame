@@ -6,10 +6,10 @@ class Player
     @name = name
     @lives = lives
   end
-
+  
+  # player lose one live if they lose. 
   def reduceLife
     @lives -= 1
   end
-  # player lose one live if they lose. 
-
+  
 end
